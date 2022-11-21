@@ -1,0 +1,458 @@
+/* BASIC RESET */
+*{
+	margin:0;
+	padding:0;
+}
+/* HTML ELEMENTS */
+body{
+	background-image: url(../img/Vectores_nw_Hexagonales.png);
+	font: 14px Georgia, serif;
+	background-position: center;
+	background-repeat: repeat;
+	background-size: 1920px 1080px;
+}
+#form-reg {
+	background-image: url(../img/abstract.jpg);
+	font: 14px Georgia, serif;
+	background-position: center;
+	background-repeat: repeat;
+	background-size: 1920px 1080px;
+	
+}
+h1 {
+	font: bold 65px/60px Helvetica, Arial, Sans-serif;
+	text-align: center;
+	color: #eee;
+	text-shadow: 0px 2px 6px #333;
+}
+h1 small{
+	font-size: 20px;
+	text-transform:uppercase;
+	letter-spacing: 14px;
+	display: block;
+	color: #ccc;
+}
+h2 a {
+	display: block;
+	text-decoration: none;
+	margin: 0 0 30px 0;
+	font: italic 45px Georgia, Times, Serif;
+	text-align: center;
+	color: #bfe1f1;
+	text-shadow: 0px 2px 6px #333;
+}
+h2 a:hover {
+	color: #90bcd0;
+}
+
+a {
+	outline:none;
+}
+
+/* COMMON CLASSES */
+.break {
+	clear:both;
+}
+
+/* WRAPPER */
+.wrapper {
+	width: 800px;
+	margin: 40px auto;
+	color: #000;
+	font-size: 14px;
+}
+
+/* CONTENT */
+.content { }
+.content p {
+	margin:20px;
+}
+.content-log {
+	width: 850px;
+	margin: 40px 300px;
+	color: #000;
+	font-size: 14px;
+}
+
+/* MENU */
+#header_menu{
+	margin: 35px 0 0  150px;
+	margin-top: 5px;
+
+
+}
+ul,ol {
+	list-style: none;
+}
+.nav li a  {
+	background-color: rgba(140, 0, 255, 0.3);
+	color: #000000;
+	letter-spacing: -1px;
+	text-decoration: none;
+	text-shadow: #eee 0 0 2px;
+	padding: 12px 12px;
+	font-family: arial;
+	font-size: 15px; 
+	font-weight: bold;
+	display: block;
+
+}
+.nav li a:hover{
+	-moz-box-shadow:0 -5px 10px #777;
+	-webkit-box-shadow:0 -5px 10px #777;
+	background: -webkit-gradient(linear,right bottom, left top, color-stop(0,rgb(237,227,112)), color-stop(0.72,rgb(2))) !important;
+	background: -webkit-gradient(right bottom, left top, color-stop(0,rgb(237,227,112)), color-stop(0.72,rgb(2))) !important;
+	background: -moz- linear-gradient(right bottom, rgb(237,227,112) 0%, rgb(255,173,10) 72%) !important;
+	background-color: rgb(8, 40, 66) !important;
+	-moz-opacity: .90;
+	filter: alpha(opacity=90);
+	opacity: .90;
+	color: #fff;
+}	
+.nav > li {
+	float: left;
+
+}
+.nav li ul {
+	display: none;
+	position: absolute;
+	min-width: 88px;
+}
+.nav li:hover > ul{
+	display: block;
+}
+
+/*ORDEN SUBMENU */
+
+.nav li ul li{
+	position: relative;
+}
+.nav li ul li ul{
+	right: -88px;
+	top: 0px;
+}
+
+/* footer */
+footer {
+	width:100%;
+}
+.row-top {
+	width:100%;
+	padding:20px 0 20px;
+	background:#000
+}
+.row-padding {
+	padding:0 62px
+}
+.row-bot {
+	width:100%;
+	padding:35px 0;
+	font-size:12px;
+	line-height:20px
+}
+.footer-logo {
+	display:block;
+	color:#9d9d9d;
+	font-size:60px;
+	line-height:1.2em;
+	text-transform:uppercase;
+	letter-spacing:-3px;
+	font-weight:400;
+	margin-bottom:5px
+}
+.footer-logo strong {
+	color:#00a9ff;
+	text-transform:none;
+	display:inline-block
+}
+.phone {
+	display:inline-block;
+	font-size:20px;
+	line-height:1.2em;
+	color:#9d9d9d;
+	letter-spacing:-1px;
+	padding-left:5px
+}
+.phone strong {
+	color:#fff
+}
+
+
+/*---------------------------------------formulario-de-registro------------------------------------------*/
+.contenedor-form{
+	width:470px;
+	background-color:rgba(0,0,0,0.51);
+	padding: 45px 45px 65px 45px;
+	margin:auto;
+	margin-top:25px;
+	border-radius:9px;
+	
+}
+ .transicion{
+	 margin-bottom:20px;
+	 width:0px;
+	 height:74px;
+	 background-color: #33de80;
+	 -webkit-transition: .7s ease;
+	  -moz-transition: .7s ease;
+	  -o-transition: .7s ease;
+	  -ms-transition: .7s ease;
+	  transition: .7s ease;
+ }
+#nombreR{
+	background-image: url(../img/presets/persona.png);
+	background-size: 30px 30px;
+	background-position: 11px 11px;
+	background-repeat: no-repeat;
+	 
+}
+#apellidoR{
+	background-image: url(../img/presets/apellido.png);
+	background-size: 30px 30px;
+	background-position: 11px 11px;
+	background-repeat: no-repeat;
+	 
+}
+#tlfR{
+	background-image: url(../img/presets/telefono.png);
+	background-size: 30px 30px;
+	background-position: 11px 11px;
+	background-repeat: no-repeat;
+	 
+}
+#cedulaR{
+	background-image: url(../img/presets/cedula.png);
+	background-size: 30px 30px;
+	background-position: 11px 11px;
+	background-repeat: no-repeat;
+	 
+}
+#nombreUR{
+	background-image: url(../img/presets/persona.png);
+	background-size: 30px 30px;
+	background-position: 11px 11px;
+	background-repeat: no-repeat;
+	 
+}
+#estadoR{
+	background-image: url(../img/presets/ubicacion.png);
+	background-size: 30px 30px;
+	background-position: 11px 11px;
+	background-repeat: no-repeat;
+	 
+}
+#emailR{
+	background-image: url(../img/presets/email.png);
+	background-size: 30px 30px;
+	background-position: 11px 11px;
+	background-repeat: no-repeat;
+	 
+}
+#rolR{
+	background-image: url(../img/presets/user.png);
+	background-size: 30px 30px;
+	background-position: 11px 11px;
+	background-repeat: no-repeat;
+
+}
+  
+#password{
+	background-image:url(../img/presets/password.png);
+	background-size: 30px 30px;
+	background-position: 11px 11px;
+	background-repeat: no-repeat;
+	 
+}
+
+.input{
+	 color:#3c3c3c;
+	 font-family:arial;
+	 font-size:18px;
+	 line-height:22px;
+	 background-color:#fbfbfb;
+	 padding: 13px 13px 13px 54px;
+	 margin-bottom:15px;
+	 width:100%;
+	 box-sizing:border-box;
+	 
+}
+ 
+.input:focus{
+	 background-color:#fff;
+	 border: 3px solid #3498db;
+	 color:color:#1b8f31;
+	 padding: 13px 13px 13px 54px;	 
+}
+input.error{
+	 font-family:arial;
+	 font-size:18px;
+	 line-height:22px;
+	 background-color:#F78181;
+	 padding: 13px 13px 13px 54px;
+	 margin-bottom:10px;
+	 width:100%;
+	 box-sizing:border-box;
+	 border:0px;
+}
+
+input.error::-webkit-input-placeholder{
+	color:white;
+}
+
+
+.input_estado{
+	 color:#949494;
+	 font-family:arial;
+	 font-size:18px;
+	 line-height:22px;
+	 background-color:#fbfbfb;
+	 padding: 13px 13px 13px 54px;
+	 margin-bottom:15px;
+	 width:100%;
+	 box-sizing:border-box;
+	 
+}
+ 
+.input_estado:focus{
+	 background-color:#fff;
+	 border: 3px solid #3498db;
+	 color:color:#949494;
+	 padding: 13px 13px 13px 54px;
+	 
+ }
+.select_estado{
+	font-family:arial;
+	font-size:18px;
+	line-height:22px;
+	color:#949494;	
+}
+
+.input_rol{
+	 color:#949494;
+	 font-family:arial;
+	 font-size:18px;
+	 line-height:22px;
+	 background-color:#fbfbfb;
+	 padding: 13px 13px 13px 54px;
+	 margin-bottom:15px;
+	 width:100%;
+	 box-sizing:border-box;
+	 
+}
+ 
+.input_rol:focus{
+	 background-color:#fff;
+	 border: 3px solid #3498db;
+	 color:color:#949494;
+	 padding: 13px 13px 13px 54px;
+	 
+ }
+.select_rol{
+	font-family:arial;
+	font-size:18px;
+	line-height:22px;
+	color:#949494;	
+}
+
+.number{
+	 color:#3c3c3c;
+	 font-family:arial;
+	 font-size:18px;
+	 line-height:22px;
+	 background-color:#fbfbfb;
+	 padding: 13px 13px 13px 54px;
+	 margin-bottom:15px;
+	 width:100%;
+	 box-sizing:border-box;
+	 
+}
+ 
+.number:focus{
+	background-color:#fff;
+	border: 3px solid #3498db;
+	color:color:#1b8f31;
+	padding: 13px 13px 13px 54px;
+	 
+}
+#registrar{
+	font-family:arial;
+	float:left;
+	width:30%;
+	border: #fff solid 3px;
+	cursor:pointer;
+	background-color:#00a0f4;
+	color:white;
+	font-size:25px;
+	font-weight:670;
+	padding-top:2px;
+	padding-bottom:2px;
+	-webkit-transition: all 0.3s;
+	-moz-transition: all 0.3s;
+	transition: all 0.3s;
+	margin-bottom:15px;
+	margin-right:15px;
+}
+ #registrar:hover{
+	 background-color:#33de80;
+	 color: #000;
+	 
+
+ }
+ 
+
+#registrar:hover .transicion{
+	width:100%;
+	background-color:#33de80;
+	
+}
+#regresar{
+	font-family:arial;
+	float:left;
+	width:29.7%;
+	border: #fff solid 3px;
+	cursor:pointer;
+	background-color:#00a0f4;
+	color:white;
+	font-size:25px;
+	font-weight:670;
+	padding-top:2px;
+	padding-bottom:2px;
+	-webkit-transition: all 0.3s;
+	-moz-transition: all 0.3s;
+	transition: all 0.3s;
+	margin-bottom:15px;
+	margin-right:13px;	
+
+}
+#regresar:hover{
+	background-color:#33de80;
+	color: #000;	
+}
+
+#restablecer{
+	font-family:arial;
+	float:left;
+	width:33.6%;
+	border: #fff solid 3px;
+	cursor:pointer;
+	background-color:#00a0f4;
+	color:white;
+	font-size:25px;
+	font-weight:670;
+	padding-top:2px;
+	padding-bottom:2px;
+	-webkit-transition: all 0.3s;
+	-moz-transition: all 0.3s;
+	transition: all 0.3s;
+	margin-bottom:15px;	
+	
+}
+#restablecer:hover{
+	background-color:#33de80;
+	color: #000;	
+}
+
+
+.color-sexo {
+	color: #FFF;
+}

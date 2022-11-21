@@ -1,0 +1,120 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+h3{
+	font-family: 'Arial';
+	font-size: 18pt;
+	letter-spacing: 1px;
+	width: 100%;
+	background: #2980b9;
+	padding: 15px;
+	color: #FFF;
+	text-align: center;
+	text-transform: uppercase;
+
+}
+body{
+	background-image: url(../img/abstract.jpg);
+}
+
+#container{
+	width:450px;
+	background-color:rgba(0,0,0,0.51);
+	padding: 45px 45px 100px 45px;
+	margin:auto;
+	margin-top:27px;
+	border-radius:9px;
+
+
+}
+.parrafo{
+	font-family:'arial';
+	font-size:17px;
+	text-align:center;
+	margin-bottom: 5px;
+}
+
+
+#container form input{
+	color:#3c3c3c;
+	font-family:'Arial';
+	font-size:18px;
+	line-height:22px;
+	background-color:#fbfbfb;
+	padding: 13px 13px 13px 54px;
+	margin-bottom:15px;
+	width:100%;
+	box-sizing:border-box;
+}
+#captcha{
+	color:#3c3c3c;
+	font-family:'Arial';
+	font-size:18px;
+	line-height:22px;
+	background-color:#fbfbfb;
+	padding: 13px 13px 13px 54px;
+	margin-bottom:15px;
+	width:100%;
+	box-sizing:border-box;
+}
+#img{
+	margin-bottom:15px;
+	width:60px;
+	height: 30px;
+	box-sizing:border-box;
+
+}
+ 
+#container form input:focus{
+	background-color:#fff;
+	border: 3px solid #2fa6f5;
+	color:color:#1b8f31;
+	padding: 13px 13px 13px 54px;
+	 
+}
+/*imagenes*/
+
+#usuario{
+	background-image: url(../img/presets/persona.png);
+	background-size: 30px 30px;
+	background-position: 11px 11px;
+	background-repeat: no-repeat;
+	 
+}
+ 
+#clave{
+	background-image:url(../img/presets/password.png);
+	background-size: 30px 30px;
+	background-position: 11px 11px;
+	background-repeat: no-repeat;
+	 
+}
+
+#container form input[type="submit"]{
+	width: 100%;
+	padding: 22px 0 16px 0;
+	font-size: 16pt;
+	display: block;
+	float: left;
+	margin: 0px auto;
+	border: #fff 3px solid;
+	background-color:#00a0f4;
+	color: #FFF;
+	cursor:pointer;
+	text-align: center;
+
+}
+#container form input:hover[type="submit"]{
+	background-color:rgba(0,0,0,0);
+	background-color: #34e46f;
+	text-align: center;
+}
+
+.alert{
+	font-family: 'Arial';
+	font-size: 16px;
+	text-align: center;
+}
